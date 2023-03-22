@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="control">
+        <select name="amount" id="amount">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <BR></BR>
+        <button id="zapisz">ZAPISZ LEVEL NA SERWERZE</button>
+        <button id="wczytaj">WCZYTAJ Z SERWERA</button>
+        <form action="/hex"><input type="submit" value="GO TO HEX!"></form>
+        <form action="/game"><input type="submit" value="GO TO GAME!"></form>
+        <form action="/movement"><input type="submit" value="SIMPLE PLAYER MOVEMENT"></form>
+        <div id="walls" class="wybor" value="walls">WALLS</div>
+        <div id="enemy" class="wybor" value="enemy">ENEMY</div>
+        <div id="treasure" class="wybor" value="treasure">TREASURE</div>
+        <div id="light" class="wybor" value="light">LIGHT</div>
+    </div>
+    <div id="status"></div>
+    <div id="game">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+}
+body{
+    overflow: hidden;
+}
+#control{
+    width: 10%;
+    float: left;
+    background-color: grey;
+    height: 100vh;
+}
+#game{
+    width: 60%;
+    height: 100vh;
+    overflow: auto;
+    float: left;
+    position: relative;
+}
+#status{
+    width: 29%;
+    float: left;
+    background-color: rgb(204, 203, 203);
+    height: 100vh;
+    font-size: 20px;
+    overflow: auto;
+}
+button{
+    width: 100px;
+}
+select{
+    margin: 20px;
+}
+.hex{
+    position: absolute;
+    width: 100px;
+    height: 94px;
+    background-image: url("img/hex1.png");
+}
+.arrow{
+    position: absolute;
+    width: 100px;
+    height: 94px;
+    background-image: url("img/strzalka.png");
+    color: white;
+    font-size: large;
+    line-height: 80px;
+    text-align: center;
+}
+input{
+    width: 20px;
+    height: 20px;
+}
+.wybor{
+    width: 100px;
+    background-color: rgb(180, 180, 180);
+    margin-top: 10px;
+}
+.wybrany{
+    width: 100px;
+    background-color: rgb(180, 180, 180);
+    margin-top: 10px;
+    border: green 2px solid;
+}
+input{
+    width: 100px;
+    background-color: rgb(180, 180, 180);
+    margin-top: 10px;
+    color: red;
+}
+#steer{
+    position: absolute;
+}

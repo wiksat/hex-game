@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="three.js"></script>
+    <script src="OrbitControls.js"></script>
+    <script src="js3D/Doors3D.js"></script>
+    <script src="js3D/Hex3D.js"></script>
+    <script src="js3D/Main3DH.js"></script>
+    <script src="js3D/Settings.js"></script>
+    <!-- <script src="js3D/Level3D.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <script>
+        $(document).ready(function () {
+            var cell = new Hex(1, 4)
+            console.log(cell)
+            scene.add(cell)
+        })
+    </script>
+</head>
+
+<body>
+    <!-- siemaaa -->
+    <div id="root"></div>
+</body>
+
+</html>
